@@ -1,7 +1,7 @@
 # api-requirements
 
 ## how to run it
-1. Create Datbase named hq_rental
+Create A Database `hq_rental`
 `charset = utf8`, `collation=utf8_unicode_ci`
 ```sh 
 composer install
