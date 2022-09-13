@@ -47,6 +47,6 @@ class dbcreate extends Command
         DB::statement($query);
 
         config(["database.connections.mysql.database" => $dbName]);
-        $this->info('A Database named'.$dbName.' created successfully!');
+        $this->info('A Database '.$dbName.' created successfully!');
     }    
 }

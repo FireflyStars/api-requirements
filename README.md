@@ -1,13 +1,15 @@
 # api-requirements
 
 ## how to run it
-
+1. Create Datbase named hq_rental
+2. `charset = utf8`, `collation=utf8_unicode_ci`
 ```sh 
 composer install
 ```
 ```sh 
 cp .env.example .env
 ```
+1. Set `DB_DATABASE`,`DB_USERNAME`, `DB_PASSWORD` in .env file;
 ```sh 
 php artisan db:create hq_rental
 ```
