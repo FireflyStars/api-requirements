@@ -3,12 +3,12 @@
 ## how to run it
 
 1. Clone this repository
-1. ```composer install```
-1. ```cp .env.example .env```
-1. ```php artisan db:create hq_rental```
-1. ```php artisan migrate```
-1. ```php artisan db:seed```
-1. ```php artisan serve```
+1. ```sh composer install```
+1. ```sh cp .env.example .env```
+1. ```sh php artisan db:create hq_rental```
+1. ```sh php artisan migrate```
+1. ```sh php artisan db:seed```
+1. ```sh php artisan serve```
 
 ## Description
 We want you to implement a REST API endpoint that given a list of products, applies some
