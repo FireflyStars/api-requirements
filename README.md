@@ -21,16 +21,16 @@ php artisan serve
 ```
 ## endpoint
 ```sh
-\products
+\api\products
 ```
 ```sh
-\products?price=89000
+\api\products?price=89000
 ```
 ```sh
-\products?category=insurance
+\api\products?category=insurance
 ```
 ```sh
-\products?price=89000&category=insurance
+\api\products?price=89000&category=insurance
 ```
 ## Description
 We want you to implement a REST API endpoint that given a list of products, applies some
