@@ -10,9 +10,6 @@ composer install
 cp .env.example .env
 ```
 Set `DB_DATABASE`,`DB_USERNAME`, `DB_PASSWORD` in .env file;
-```sh 
-php artisan db:create hq_rental
-```
 ```sh
 php artisan migrate
 ```
@@ -22,7 +19,19 @@ php artisan db:seed
 ```sh
 php artisan serve
 ```
-
+## endpoint
+```sh
+\products
+```
+```sh
+\products?price=89000
+```
+```sh
+\products?category=insurance
+```
+```sh
+\products?price=89000&category=insurance
+```
 ## Description
 We want you to implement a REST API endpoint that given a list of products, applies some
 discounts to them and can be filtered.
